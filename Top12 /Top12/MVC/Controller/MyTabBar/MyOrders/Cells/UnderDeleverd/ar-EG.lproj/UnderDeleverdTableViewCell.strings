@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "  call    "; ObjectID = "5Xd-YL-ktW"; */
+"5Xd-YL-ktW.normalTitle" = " إتصال ";
+
+/* Class = "UILabel"; text = "Waiting for captain"; ObjectID = "5mV-8s-gsv"; */
+"5mV-8s-gsv.text" = " جاري توفير مندوب";
+
+/* Class = "UILabel"; text = "contact with captin"; ObjectID = "Reo-xp-0KE"; */
+"Reo-xp-0KE.text" = "تواصل مع المندوب";
+
+/* Class = "UIButton"; normalTitle = "  Whats  "; ObjectID = "ame-Yt-OIu"; */
+"ame-Yt-OIu.normalTitle" = " واتس ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ame-dC-2Mn"; */
+"ame-dC-2Mn.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tGl-tX-7ue"; */
+"tGl-tX-7ue.text" = " ";

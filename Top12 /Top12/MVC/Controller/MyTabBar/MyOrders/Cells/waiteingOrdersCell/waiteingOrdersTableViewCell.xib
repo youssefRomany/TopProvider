@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="droid_kufi-regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="waiteingOrdersTableViewCell" rowHeight="143" id="KGk-i7-Jjw" customClass="waiteingOrdersTableViewCell" customModule="Top12" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="347" height="143"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWZ-G2-S7G">
+                        <rect key="frame" x="17.5" y="7" width="312" height="129"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="tCm-6S-YgC">
+                                <rect key="frame" x="10" y="26" width="76.5" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tCm-6S-YgC" secondAttribute="height" multiplier="1:1" id="Sxx-4a-zDq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rg-bd-Vbd">
+                                <rect key="frame" x="96.5" y="10" width="205.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XVj-Wl-ber"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                <color key="textColor" red="0.1176470588" green="0.58431372550000005" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMf-H7-dkk">
+                                <rect key="frame" x="96.5" y="40" width="205.5" height="0.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.10000000000000001" id="zYc-v7-Cyn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmV-yM-3Wu">
+                                <rect key="frame" x="96.5" y="40.5" width="205.5" height="48.5"/>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEt-Jc-NHF">
+                                <rect key="frame" x="96.5" y="89" width="205.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jz4-q8-G32"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pay" translatesAutoresizingMaskIntoConstraints="NO" id="2fD-qh-RgH">
+                                <rect key="frame" x="252" y="10" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="AHv-kn-ARb"/>
+                                    <constraint firstAttribute="height" constant="30" id="q5N-Xj-dka"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tCm-6S-YgC" firstAttribute="centerY" secondItem="dWZ-G2-S7G" secondAttribute="centerY" id="459-IN-ouT"/>
+                            <constraint firstAttribute="trailing" secondItem="OmV-yM-3Wu" secondAttribute="trailing" constant="10" id="4J8-yf-kZU"/>
+                            <constraint firstItem="OmV-yM-3Wu" firstAttribute="top" secondItem="fMf-H7-dkk" secondAttribute="bottom" id="4K6-6N-bBC"/>
+                            <constraint firstItem="fMf-H7-dkk" firstAttribute="top" secondItem="3rg-bd-Vbd" secondAttribute="bottom" id="4SG-qT-3XS"/>
+                            <constraint firstAttribute="trailing" secondItem="3rg-bd-Vbd" secondAttribute="trailing" constant="10" id="Bft-ci-9Vv"/>
+                            <constraint firstItem="tCm-6S-YgC" firstAttribute="leading" secondItem="dWZ-G2-S7G" secondAttribute="leading" constant="10" id="Lhe-RX-VA2"/>
+                            <constraint firstItem="3rg-bd-Vbd" firstAttribute="top" secondItem="dWZ-G2-S7G" secondAttribute="top" constant="10" id="N9l-pl-CbM"/>
+                            <constraint firstItem="VEt-Jc-NHF" firstAttribute="trailing" secondItem="3rg-bd-Vbd" secondAttribute="trailing" id="VEV-1H-0Dk"/>
+                            <constraint firstAttribute="trailing" secondItem="2fD-qh-RgH" secondAttribute="trailing" constant="10" id="Y9c-OJ-Wdy"/>
+                            <constraint firstItem="fMf-H7-dkk" firstAttribute="trailing" secondItem="3rg-bd-Vbd" secondAttribute="trailing" id="cHd-aU-IcD"/>
+                            <constraint firstItem="OmV-yM-3Wu" firstAttribute="leading" secondItem="3rg-bd-Vbd" secondAttribute="leading" id="ibK-Zn-sAf"/>
+                            <constraint firstItem="VEt-Jc-NHF" firstAttribute="leading" secondItem="3rg-bd-Vbd" secondAttribute="leading" id="jzs-sE-SOX"/>
+                            <constraint firstItem="fMf-H7-dkk" firstAttribute="leading" secondItem="3rg-bd-Vbd" secondAttribute="leading" id="k97-u1-FN7"/>
+                            <constraint firstItem="2fD-qh-RgH" firstAttribute="top" secondItem="dWZ-G2-S7G" secondAttribute="top" constant="10" id="ppw-W3-5Yw"/>
+                            <constraint firstItem="VEt-Jc-NHF" firstAttribute="top" secondItem="OmV-yM-3Wu" secondAttribute="bottom" id="sIA-8s-6BC"/>
+                            <constraint firstAttribute="bottom" secondItem="VEt-Jc-NHF" secondAttribute="bottom" constant="10" id="tdB-8T-ppJ"/>
+                            <constraint firstItem="3rg-bd-Vbd" firstAttribute="leading" secondItem="tCm-6S-YgC" secondAttribute="trailing" constant="10" id="v0t-V7-osV"/>
+                            <constraint firstItem="tCm-6S-YgC" firstAttribute="height" secondItem="dWZ-G2-S7G" secondAttribute="height" multiplier="0.596899" id="yj2-YR-wtJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="dWZ-G2-S7G" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.9" id="5Pd-AZ-7wL"/>
+                    <constraint firstItem="dWZ-G2-S7G" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.9" id="WEf-ag-n4e"/>
+                    <constraint firstItem="dWZ-G2-S7G" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="bWI-33-9CW"/>
+                    <constraint firstItem="dWZ-G2-S7G" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tMO-s9-sOM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cashImageView" destination="2fD-qh-RgH" id="hcV-8Y-dDG"/>
+                <outlet property="cityLabel" destination="OmV-yM-3Wu" id="iBI-BY-esD"/>
+                <outlet property="dateLabel" destination="3rg-bd-Vbd" id="Dcg-sV-nyl"/>
+                <outlet property="orderImageView" destination="tCm-6S-YgC" id="oSp-m3-mGS"/>
+                <outlet property="orderNumLabel" destination="VEt-Jc-NHF" id="aSg-op-wTg"/>
+                <outlet property="titleLabel" destination="fMf-H7-dkk" id="2dh-xI-4R6"/>
+            </connections>
+            <point key="canvasLocation" x="-55.797101449275367" y="24.441964285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="134.5" height="134.5"/>
+        <image name="pay" width="900" height="580"/>
+    </resources>
+</document>

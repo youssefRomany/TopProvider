@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="droid_kufi-bold.ttf">
+            <string>DroidArabicKufi-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCollectionViewCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="Top12" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQp-Lf-7cn">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dB7-9q-bUB">
+                                <rect key="frame" x="16.5" y="1" width="130" height="130"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rpJ-Rn-cWK">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="83.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cate_icon_noimg" translatesAutoresizingMaskIntoConstraints="NO" id="IE8-fw-JAq" customClass="CircleImageView" customModule="Top12" customModuleProvider="target">
+                                                <rect key="frame" x="29" y="10" width="72" height="71.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="IE8-fw-JAq" secondAttribute="height" multiplier="1:1" id="y6Y-cO-edZ"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="_maskType" value="circle"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="35"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="IE8-fw-JAq" firstAttribute="centerX" secondItem="rpJ-Rn-cWK" secondAttribute="centerX" id="4xa-nB-35z"/>
+                                            <constraint firstItem="IE8-fw-JAq" firstAttribute="width" secondItem="rpJ-Rn-cWK" secondAttribute="width" multiplier="0.55" id="9tc-SW-e0d"/>
+                                            <constraint firstItem="IE8-fw-JAq" firstAttribute="centerY" secondItem="rpJ-Rn-cWK" secondAttribute="centerY" multiplier="1.1" id="tQu-h8-tSq"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="7de-ov-xSF">
+                                        <rect key="frame" x="38" y="83.5" width="54" height="28.5"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi-Bold" family="Droid Arabic Kufi" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="7de-ov-xSF" firstAttribute="width" secondItem="dB7-9q-bUB" secondAttribute="width" multiplier="0.414474" id="4bU-Yq-9Ma"/>
+                                    <constraint firstItem="7de-ov-xSF" firstAttribute="centerX" secondItem="dB7-9q-bUB" secondAttribute="centerX" id="Dcw-Jk-L91"/>
+                                    <constraint firstAttribute="trailing" secondItem="rpJ-Rn-cWK" secondAttribute="trailing" id="KfT-qz-NPW"/>
+                                    <constraint firstItem="rpJ-Rn-cWK" firstAttribute="height" secondItem="dB7-9q-bUB" secondAttribute="height" multiplier="0.64" id="V11-oN-iaA"/>
+                                    <constraint firstItem="rpJ-Rn-cWK" firstAttribute="top" secondItem="dB7-9q-bUB" secondAttribute="top" id="fN3-c2-60r"/>
+                                    <constraint firstItem="rpJ-Rn-cWK" firstAttribute="leading" secondItem="dB7-9q-bUB" secondAttribute="leading" id="k5R-0f-tHa"/>
+                                    <constraint firstAttribute="width" secondItem="dB7-9q-bUB" secondAttribute="height" multiplier="1:1" id="tcw-PQ-A2h"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7de-ov-xSF" secondAttribute="bottom" id="ttW-b1-xXJ"/>
+                                    <constraint firstItem="7de-ov-xSF" firstAttribute="top" secondItem="rpJ-Rn-cWK" secondAttribute="bottom" id="yXp-wm-ECy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_maskType" value="circle"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dB7-9q-bUB" firstAttribute="centerY" secondItem="fQp-Lf-7cn" secondAttribute="centerY" id="57B-nu-pD4"/>
+                            <constraint firstItem="dB7-9q-bUB" firstAttribute="width" secondItem="fQp-Lf-7cn" secondAttribute="width" multiplier="0.8" id="6r7-Cf-SO1"/>
+                            <constraint firstItem="dB7-9q-bUB" firstAttribute="centerX" secondItem="fQp-Lf-7cn" secondAttribute="centerX" id="wPe-hZ-63L"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="fQp-Lf-7cn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MK3-ui-lrb"/>
+                <constraint firstAttribute="trailing" secondItem="fQp-Lf-7cn" secondAttribute="trailing" id="MNK-aM-jQN"/>
+                <constraint firstItem="fQp-Lf-7cn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c9e-aS-7Cm"/>
+                <constraint firstAttribute="bottom" secondItem="fQp-Lf-7cn" secondAttribute="bottom" id="wiY-Qa-xy5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="163" height="132"/>
+            <connections>
+                <outlet property="catNameLabel" destination="7de-ov-xSF" id="6MG-Ne-6h6"/>
+                <outlet property="categoryImageView" destination="IE8-fw-JAq" id="9Ok-mI-BIP"/>
+            </connections>
+            <point key="canvasLocation" x="-113.768115942029" y="32.8125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cate_icon_noimg" width="55" height="55"/>
+    </resources>
+</document>

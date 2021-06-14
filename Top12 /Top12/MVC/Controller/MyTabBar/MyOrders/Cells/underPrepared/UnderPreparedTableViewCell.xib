@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="droid_kufi-regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UnderPreparedTableViewCell" rowHeight="78" id="KGk-i7-Jjw" customClass="UnderPreparedTableViewCell" customModule="Top12_provider" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="78"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blY-f5-MaH">
+                        <rect key="frame" x="19" y="4" width="340" height="70"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fbr-fC-wh5">
+                                <rect key="frame" x="250" y="10" width="80" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yT3-QK-01I">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                        <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="16"/>
+                                        <color key="textColor" red="0.1176470588" green="0.58431372550000005" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="yT3-QK-01I" secondAttribute="trailing" id="4g3-j1-JnR"/>
+                                    <constraint firstAttribute="height" constant="30" id="Bqc-aH-Gg7"/>
+                                    <constraint firstAttribute="bottom" secondItem="yT3-QK-01I" secondAttribute="bottom" id="GGG-b6-8WL"/>
+                                    <constraint firstAttribute="width" constant="80" id="XSO-Oz-9ZC"/>
+                                    <constraint firstItem="yT3-QK-01I" firstAttribute="top" secondItem="Fbr-fC-wh5" secondAttribute="top" id="XyF-eU-acx"/>
+                                    <constraint firstItem="yT3-QK-01I" firstAttribute="leading" secondItem="Fbr-fC-wh5" secondAttribute="leading" id="dhk-ra-khn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="7yX-4K-wGR">
+                                <rect key="frame" x="10" y="14" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7yX-4K-wGR" secondAttribute="height" multiplier="1:1" id="WJL-hg-zSZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbS-PU-ul3">
+                                <rect key="frame" x="62" y="10" width="37" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tLa-DU-A10"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                <color key="textColor" red="0.1176470588" green="0.58431372550000005" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="an1-zk-uJc">
+                                <rect key="frame" x="62" y="30" width="268" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BTJ-Dp-w66"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nbS-PU-ul3" firstAttribute="leading" secondItem="7yX-4K-wGR" secondAttribute="trailing" constant="10" id="27T-cQ-laL"/>
+                            <constraint firstAttribute="trailing" secondItem="Fbr-fC-wh5" secondAttribute="trailing" constant="10" id="Q28-R9-yXD"/>
+                            <constraint firstItem="7yX-4K-wGR" firstAttribute="height" secondItem="blY-f5-MaH" secondAttribute="height" multiplier="0.596899" id="RN8-Ia-hme"/>
+                            <constraint firstItem="7yX-4K-wGR" firstAttribute="centerY" secondItem="blY-f5-MaH" secondAttribute="centerY" id="Vo7-wU-8OD"/>
+                            <constraint firstItem="7yX-4K-wGR" firstAttribute="leading" secondItem="blY-f5-MaH" secondAttribute="leading" constant="10" id="ZPq-Uo-FW0"/>
+                            <constraint firstItem="Fbr-fC-wh5" firstAttribute="centerY" secondItem="nbS-PU-ul3" secondAttribute="centerY" id="hRQ-bS-WuD"/>
+                            <constraint firstAttribute="trailing" secondItem="an1-zk-uJc" secondAttribute="trailing" constant="10" id="huO-5x-Md9"/>
+                            <constraint firstItem="an1-zk-uJc" firstAttribute="leading" secondItem="nbS-PU-ul3" secondAttribute="leading" id="utW-0f-SHb"/>
+                            <constraint firstAttribute="bottom" secondItem="an1-zk-uJc" secondAttribute="bottom" constant="10" id="vPe-HK-yr2"/>
+                            <constraint firstItem="nbS-PU-ul3" firstAttribute="top" secondItem="blY-f5-MaH" secondAttribute="top" constant="10" id="yOl-uQ-EiB"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="blY-f5-MaH" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.9" id="Eye-LE-F38"/>
+                    <constraint firstItem="blY-f5-MaH" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.9" id="MBY-Ez-khe"/>
+                    <constraint firstItem="blY-f5-MaH" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="rhH-4X-ycL"/>
+                    <constraint firstItem="blY-f5-MaH" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wVw-cw-4i1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cityLabel" destination="an1-zk-uJc" id="x1b-oG-6N9"/>
+                <outlet property="containerCounterView" destination="Fbr-fC-wh5" id="cTR-75-bMZ"/>
+                <outlet property="counterLabel" destination="yT3-QK-01I" id="UJm-Pf-lcz"/>
+                <outlet property="logoView" destination="7yX-4K-wGR" id="2ww-rI-SDi"/>
+                <outlet property="orderNumLabel" destination="nbS-PU-ul3" id="f8w-4z-FSI"/>
+            </connections>
+            <point key="canvasLocation" x="-63.768115942028992" y="39.508928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="134.5" height="134.5"/>
+    </resources>
+</document>
